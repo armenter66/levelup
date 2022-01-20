@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LevelUp</title>
+    <link rel="stylesheet" href="css/style.min.css" />
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <img src="img/mainBg.png" alt="bg" class="header__back" />
+        <div class="header__logo">
+          <a href="#"><img src="img/logomain.png" alt="logo" /></a>
+        </div>
+        <nav>
+          <ul class="header__nav">
+            <li class="header__nav__menu">
+              <a href="#" class="header__nav__links">О школе</a>
+            </li>
+            <li class="header__nav__menu">
+              <a href="#" class="header__nav__links">Программы</a>
+            </li>
+            <li class="header__nav__menu">
+              <a href="#" class="header__nav__links">Отзывы</a>
+            </li>
+            <li class="header__nav__menu">
+              <a href="#" class="header__nav__links">Педагоги</a>
+            </li>
+            <li class="header__nav__menu">
+              <a href="#" class="header__nav__links">Вопрос-Ответ</a>
+            </li>
+            <li class="header__nav__menu">
+              <a href="#" class="header__nav__links">Наши адреса</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__icons">
+          <a href="#" class="header__icons__links"
+            ><img src="icons/Search.svg" alt="search"
+          /></a>
+          <a href="#" class="header__icons__links"
+            ><img src="icons/Category.svg" alt="Category"
+          /></a>
+        </div>
+      </div>
+
+      <div class="promo">
+        <div class="container">
+          <div class="promo__subtitle">КУРС</div>
+          <h1 class="promo__title">IT Product Management</h1>
+          <div class="promo__desc">
+            З нуля навчишся будувати бізнес модель, визначати унікальні цінні
+            пропозиції, тестувати гіпотези, вважати юніт-економіку, будувати
+            систему метрик і беклог продукту.
+          </div>
+          <div class="promo__wrapper">
+            <a href="#" class="promo__btn js-modal">Детальніше</a>
+            <div class="promo__date">Старт: жовтень</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hamburger">
+        <span></span>
+        <span class="long"></span>
+        <span></span>
+      </div>
+    </header> 
+
+    <div class="menu">
+      <div class="menu__block">
+        <div class="menu__close">
+          <svg
+            width="29"
+            height="30"
+            viewBox="0 0 29 30"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M17.1568 14.5231L28.4489 3.23075C29.1837 2.49623 29.1837 1.30861 28.4489 0.574085C27.7144 -0.160437 26.5267 -0.160437 25.7922 0.574085L14.4998 11.8665L3.20781 0.574085C2.47295 -0.160437 1.28567 -0.160437 0.551149 0.574085C-0.183716 1.30861 -0.183716 2.49623 0.551149 3.23075L11.8432 14.5231L0.551149 25.8155C-0.183716 26.55 -0.183716 27.7376 0.551149 28.4721C0.917206 28.8385 1.39852 29.0226 1.87948 29.0226C2.36045 29.0226 2.84141 28.8385 3.20781 28.4721L14.4998 17.1798L25.7922 28.4721C26.1586 28.8385 26.6396 29.0226 27.1205 29.0226C27.6015 29.0226 28.0825 28.8385 28.4489 28.4721C29.1837 27.7376 29.1837 26.55 28.4489 25.8155L17.1568 14.5231Z"
+              fill="black"
+            />
+          </svg>
+        </div>
+        <div>
+          <ul class="menu__list">
+            <li class="menu__links">
+              <a href="#" class="menu__btns">О школе</a>
+            </li>
+            <li class="menu__links">
+              <a href="#" class="menu__btns">Программы</a>
+            </li>
+            <li class="menu__links">
+              <a href="#" class="menu__btns">Отзывы</a>
+            </li>
+            <li class="menu__links">
+              <a href="#" class="menu__btns">Педагоги</a>
+            </li>
+            <li class="menu__links">
+              <a href="#" class="menu__btns">Вопрос-Ответ</a>
+            </li>
+            <li class="menu__links">
+              <a href="#" class="menu__btns">Наши адреса</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="menu__overlay"></div>
+    </div>
+
+    <section class="features">
+      <div class="container">
+        <h3 class="features__title">Основні особливості курсу</h3>
+        <div class="features__wrapper">
+          <div class="features__item">
+            <div class="features__img">
+              <img src="icons/greenCal.png" alt="calendar" />
+            </div>
+            <div class="features__item__text">
+              1 рік - 1 напрямок <span>більше 20 найменувань курсів</span>
+            </div>
+          </div>
+          <div class="features__item">
+            <div class="features__img">
+              <img src="icons/greenpc.png" alt="pc" />
+            </div>
+            <div class="features__item__text">
+              Формат навчання<span>Офлайн та онлайн</span>
+            </div>
+          </div>
+          <div class="features__item">
+            <div class="features__img">
+              <img src="icons/blueCode.png" alt="code" />
+            </div>
+            <div class="features__item__text">
+              70% - практика<span
+                >Підсумковий проект для портфоліо та практика</span
+              >
+            </div>
+          </div>
+          <div class="features__item">
+            <div class="features__img">
+              <img src="icons/graffic.png" alt="graffic" />
+            </div>
+            <div class="features__item__text">
+              Тренінги з Soft Skills<span>та бізнес мислення</span>
+            </div>
+          </div>
+          <div class="features__item">
+            <div class="features__img">
+              <img src="icons/houses.png" alt="house" />
+            </div>
+            <div class="features__item__text">
+              Екскурсії до IT-компанії<span>та практикуми від фахівців</span>
+            </div>
+          </div>
+          <div class="features__item">
+            <div class="features__img">
+              <img src="icons/sunset.png" alt="sunset" />
+            </div>
+            <div class="features__item__text">
+              Літні інтернатура<span
+                >та табір після сдачі випускних проектів</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> 
+
+    <section class="product">
+      <div class="container">
+        <div class="product__wrapper">
+          <div class="product__photo">
+            <img
+              src="img/girlgreen.png"
+              alt="girlonphoto"
+              class="product__girl"
+            />
+            <img src="img/payment.png" alt="payment" class="product__payment" />
+          </div>
+          <div class="product__what">
+            <h2 class="product__what__title title">
+              Чим займається <span>Product manager?</span>
+            </h2>
+            <div class="product__what__desc">
+              Відповідає за створення продукту і його розвиток. Це може бути
+              мобільний додаток банку, нова модель автомобіля або житловий
+              квартал на березі моря. Продакт-менеджмент - це не тільки про IT.
+            </div>
+            <div class="product__messege">
+              На курсі ви навчитеся створювати продукт, а після запуску - шукати
+              шляхи, як його поліпшити. Саме Ви будете визначати, який продукт
+              потрібен клієнту і як його масштабувати на ринку.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>  
+
+    <section class="course">
+      <div class="container">
+        <div class="course__emoji">
+          <img src="icons/emojiSmile.png" alt="smile" />
+        </div>
+        <h2 class="course__title title">Для кого цей <span>курс?</span></h2>
+        <div class="course__wrapper">
+          <div class="course__item">
+            <div class="course__item__img">
+              <img src="img/readingboy.png" alt="readingboy" />
+            </div>
+            <div class="course__item__desc">
+              Бізнес Аналітикам
+              <span
+                >які прагнуть перейти на слід щабель розвитку і стати
+                Менеджерами продукту</span
+              >
+            </div>
+          </div>
+          <div class="course__item">
+            <div class="course__item__img">
+              <img src="img/boy404.png" alt="404boy" />
+            </div>
+            <div class="course__item__desc">
+              Розробникам
+              <span>
+                які хочуть розуміти рішення по продукту і вносити цінні
+                пропозицію щодо його розвитку</span
+              >
+            </div>
+          </div>
+          <div class="course__item">
+            <div class="course__item__img">
+              <img src="img/flyboy.png" alt="flyboy" />
+            </div>
+            <div class="course__item__desc">
+              UI/UX дизайнерам
+              <span
+                >які хочуть створювати найбільш підходящий для продукту user
+                experience</span
+              >
+            </div>
+          </div>
+          <div class="course__item">
+            <div class="course__item__img">
+              <img src="img/rocketboy.png" alt="rocketboy" />
+            </div>
+            <div class="course__item__desc">
+              Початківцям стартаперам
+              <span>
+                які думають про створення власного продукту і хочуть навчитися
+                розробляти готову концепцію продукту для пошуку інвестора
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>  
+
+    <section class="after">
+      <div class="container">
+        <div class="after__block">
+          <h3 class="after__block__title title__h3">
+            Після курсу ти <span>зможеш</span>
+          </h3>
+          <div class="after__block__icon">
+            <img src="icons/emojiRock.png" alt="emoji" />
+          </div>
+        </div>
+        <div class="after__wrapper">
+          <div class="after__items">
+            <div class="after__items__block">
+              <div class="after__items__img">
+                <img src="icons/mobile.png" alt="" />
+              </div>
+              <div class="after__items__title">Projects</div>
+            </div>
+            <div class="after__divider"></div>
+            <div class="after__items__desc">
+              Навчіться робити проекцію бізнесу замовника на дизайн продукту
+            </div>
+          </div>
+
+          <div class="after__items">
+            <div class="after__items__block">
+              <div class="after__items__img">
+                <img src="icons/diagrams.png" alt="" />
+              </div>
+              <div class="after__items__title">Cooperation</div>
+            </div>
+            <div class="after__divider"></div>
+            <div class="after__items__desc">
+              Ви зможете оптимізувати роботу співробітників і швидко створювати
+              продукти, не жертвуючи якістю
+            </div>
+          </div>
+
+          <div class="after__items">
+            <div class="after__items__block">
+              <div class="after__items__img">
+                <img src="icons/text.png" alt="" />
+              </div>
+              <div class="after__items__title">Using experience</div>
+            </div>
+            <div class="after__divider"></div>
+            <div class="after__items__desc">
+              Використовувати принципи бережливого виробництва
+            </div>
+          </div>
+
+          <div class="after__items">
+            <div class="after__items__block">
+              <div class="after__items__img">
+                <img src="icons/lamp.png" alt="" />
+              </div>
+              <div class="after__items__title">Testing</div>
+            </div>
+            <div class="after__divider"></div>
+            <div class="after__items__desc">
+              Перевіряти гіпотези і проводити UX-тестування
+            </div>
+          </div>
+
+          <div class="after__items">
+            <div class="after__items__block">
+              <div class="after__items__img">
+                <img src="icons/settings.png" alt="" />
+              </div>
+              <div class="after__items__title">Plan</div>
+            </div>
+            <div class="after__divider"></div>
+            <div class="after__items__desc">
+              Навчіться розробляти детальний план створення продукту - з
+              урахуванням важливих функцій, досліджень і можливих помилок
+            </div>
+          </div>
+
+          <div class="after__items">
+            <div class="after__items__block">
+              <div class="after__items__img">
+                <img src="icons/blueImg.png" alt="" />
+              </div>
+              <div class="after__items__title">Promotion</div>
+            </div>
+            <div class="after__divider"></div>
+            <div class="after__items__desc">
+              Ви зможете розробити вигідну фінансову модель продукту і зменшити
+              витрати на його запуск
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>  
+
+    <section class="whoreads">
+      <div class="container">
+        <div class="whoreads__icon">
+          <img src="icons/emojibrain.png" alt="brain" />
+        </div>
+        <h2 class="whoreads__title title">Хто <span>читає</span> цей курс?</h2>
+
+        <ul class="whoreads__slider"></ul>
+      </div>
+    </section>  
+
+    <section class="learn">
+      <div class="container">
+        <div class="learn__block">
+          <h3 class="learn__title title__h3">Як проходе навчання?</h3>
+          <div class="learn__icon">
+            <img src="icons/emojiThink.png" alt="" />
+          </div>
+        </div>
+        <div class="learn__wrapper">
+          <div class="learn__rainbow">
+            <img src="img/backgrondRain.png" alt="back" />
+          </div>
+          <div class="learn__item">
+            <div class="learn__item__header">
+              <img src="icons/Vector.svg" alt="chat" />
+              <div class="learn__item__title">Живі заняття</div>
+            </div>
+            <div class="learn__item__desc">
+              Навчання в офлайн форматі і з можливістю онлайн підключення
+            </div>
+          </div>
+
+          <div class="learn__item">
+            <div class="learn__item__header">
+              <img src="icons/note.svg" alt="chat" />
+              <div class="learn__item__title">90% практики</div>
+            </div>
+            <div class="learn__item__desc">
+              Практика з першого дня навчання: робота над реальним проектом для
+              портфоліо
+            </div>
+          </div>
+
+          <div class="learn__item">
+            <div class="learn__item__header">
+              <img src="icons/messege.png" alt="chat" />
+              <div class="learn__item__title">Підтримка викладачів</div>
+            </div>
+            <div class="learn__item__desc">
+              Закритий Telegram-чат групи з викладачем, розбір домашніх завдань
+              і регулярна зворотний зв'язок
+            </div>
+          </div>
+
+          <div class="learn__item">
+            <div class="learn__item__header">
+              <img src="icons/note.svg" alt="chat" />
+              <div class="learn__item__title">Кар'єрні івенти</div>
+            </div>
+            <div class="learn__item__desc">
+              Онлайн-екскурсії в топові IT-компанії, тренінги по Soft Skills і
+              підготовка до працевлаштування
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> 
+
+    <section class="certificate">
+      <div class="container">
+        <div class="certificate__icon">
+          <img src="icons/emojifinish.png" alt="finish" />
+        </div>
+        <h2 class="certificate__title title">
+          Твоє <span>резюме</span> після навчання
+        </h2>
+        <div class="certificate__wrapper">
+          <div class="certificate__example">
+            <div class="certificate__logo">
+              <img src="icons/logosmall.png" alt="logo" />
+            </div>
+            <div class="certificate__example__header">
+              <div class="certificate__example__header__bio">
+                <img src="icons/avagirl.png" alt="avagirl" />
+                <div class="certificate__example__header__title">
+                  Ганна Шмід <span>Product manager</span>
+                </div>
+              </div>
+              <div class="certificate__example__header__pay">
+                Зарплата від <span>$700</span>
+              </div>
+            </div>
+            <div class="certificate__divider"></div>
+
+            <div class="certificate__graffic">
+              <div class="certificate__graffic__item">
+                <div class="certificate__graffic__item__title">
+                  Графік <span>Віддалена робота</span>
+                </div>
+              </div>
+              <div class="certificate__graffic__item">
+                <div class="certificate__graffic__item__title">
+                  Освіта<span>LevelUp, Product manegement</span>
+                </div>
+              </div>
+              <div class="certificate__graffic__item">
+                <div class="certificate__graffic__item__title">
+                  Досвід роботи <span>LevelUp, проектна робота</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="certificate__skills">
+              Ключові навички
+
+              <ul class="certificate__skills__list">
+                <li class="certificate__skills__points">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                </li>
+                <li class="certificate__skills__points">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                </li>
+                <li class="certificate__skills__points">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                </li>
+                <li class="certificate__skills__points">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                </li>
+                <li class="certificate__skills__points">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="certificate__block">
+            <div class="certificate__block__title">
+              Так буде виглядати твій електронний <span>сертифікат</span>
+            </div>
+            <div class="certificate__block__subtitle">
+              який ти зможеш додати до свого CV
+            </div>
+            <div class="certificate__block__photo">
+              <img src="img/sertificate.png" alt="sertificate" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>  
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__help">
+          <div class="footer__help__photo">
+            <img src="img/negotiation.png" alt="conversation" />
+          </div>
+          <div class="footer__help__block">
+            <div class="footer__help__title">
+              Допомагаємо <img src="icons/emojiHands.png" alt="handshake" />
+              <span> з працевлаштування</span>
+            </div>
+            <div class="footer__help__subtitle">
+              кожен випускник Level Up отримує допомогу і підтримку
+              <a href="#">Центру розвитку кар'єри</a>
+            </div>
+
+            <div class="footer__accordeon">
+              <div class="footer__elemAccordeon">
+                <div class="footer__headingElem">
+                  Надаємо консультацію<img
+                    class="footer__moreSvg"
+                    src="icons/more.svg"
+                    alt="more"
+                  /><img
+                    class="footer__lessSvg"
+                    src="icons/less.svg"
+                    alt="less"
+                  />
+                </div>
+                <div class="footer__descElem">
+                  Регулярно інформуємо про актуальні вакансії від наших компаній
+                  партнерів і дамо рекомендації для самостійного пошуку роботи
+                </div>
+              </div>
+              <div class="footer__elemAccordeon">
+                <div class="footer__headingElem">
+                  Допомагаємо з резюме
+                  <img
+                    class="footer__moreSvg"
+                    src="icons/more.svg"
+                    alt="more"
+                  /><img
+                    class="footer__lessSvg"
+                    src="icons/less.svg"
+                    alt="less"
+                  />
+                </div>
+                <div class="footer__descElem">
+                  Регулярно інформуємо про актуальні вакансії від наших компаній
+                  партнерів і дамо рекомендації для самостійного пошуку роботи
+                </div>
+              </div>
+              <div class="footer__elemAccordeon">
+                <div class="footer__headingElem">
+                  Пропонуємо вакансії
+                  <img
+                    class="footer__moreSvg"
+                    src="icons/more.svg"
+                    alt="more"
+                  /><img
+                    class="footer__lessSvg"
+                    src="icons/less.svg"
+                    alt="less"
+                  />
+                </div>
+                <div class="footer__descElem">
+                  Регулярно інформуємо про актуальні вакансії від наших компаній
+                  партнерів і дамо рекомендації для самостійного пошуку роботи
+                </div>
+              </div>
+              <div class="footer__elemAccordeon">
+                <div class="footer__headingElem">
+                  Сприяємо твоєму розвитку<img
+                    class="footer__moreSvg"
+                    src="icons/more.svg"
+                    alt="more"
+                  /><img
+                    class="footer__lessSvg"
+                    src="icons/less.svg"
+                    alt="less"
+                  />
+                </div>
+                <div class="footer__descElem">
+                  Регулярно інформуємо про актуальні вакансії від наших компаній
+                  партнерів і дамо рекомендації для самостійного пошуку роботи
+                </div>
+              </div>
+              <div class="footer__elemAccordeon">
+                <div class="footer__headingElem">
+                  Допомагаємо отримати роботу мрії<img
+                    class="footer__moreSvg"
+                    src="icons/more.svg"
+                    alt="more"
+                  /><img
+                    class="footer__lessSvg"
+                    src="icons/less.svg"
+                    alt="less"
+                  />
+                </div>
+                <div class="footer__descElem">
+                  Регулярно інформуємо про актуальні вакансії від наших компаній
+                  партнерів і дамо рекомендації для самостійного пошуку роботи
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer__contact">
+          <div class="footer__invest">
+            <div class="footer__invest__title">Інвестуй в себе!</div>
+            <div class="footer__invest__subtitle">
+              Отримай роботу Product manager через <span>6 тижнів.</span>
+            </div>
+            <div class="footer__invest__cost">Вартість курсу</div>
+            <div class="footer__invest__price">12500 грн. <span>*</span></div>
+            <div class="footer__invest__explain">
+              *При полной оплате скидка 10%
+            </div>
+            <div class="footer__invest__block">
+              Оплата по місяцям
+              <div class="footer__invest__payment">
+                <span>2 </span> платежа по <span>6250</span> грн
+              </div>
+            </div>
+          </div>
+
+          <div class="footer__consult">
+            <div class="footer__consult__block">
+              <img src="icons/emojiPen.png" alt="pen" />
+              <div class="footer__consult__title">
+                Получите консультацыю, в течении 30 минут
+              </div>
+            </div>
+
+            <form action="#" class="footer__consult__form">
+              <input type="text" name="name" required placeholder="Дмит|" />
+              <input
+                class="footer__consult__form__input2"
+                type="text"
+                name="phone"
+                required
+                placeholder="3 095 35 37 508"
+              />
+              <button class="footer__consult__btn">Хочу узнать</button>
+            </form>
+
+            <div class="footer__consult__subtitle">
+              Оставьте контакты, и мы свяжемся с вами в течение 30 минут
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer> 
+
+    <div class="overlaymodal">
+      <div class="modal" data-modal="coming">
+        <div class="modal__close">
+          <img src="icons/closesquare.svg" alt="close" />
+        </div>
+        <div class="modal__subtitle">Получить консультацию</div>
+        <form action="#" class="modal__form">
+          <input type="text" name="name" placeholder="Ім’я" required />
+          <input type="tel" name="tel" placeholder="Телефон" required />
+          <button class="modal__form__btn">Получить</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+@import "base/fonts";
+
+@import "base/media";
+
+@import "blocks/general";
+
+.container {
+  width: 1171px;
+  margin: 0 auto;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 74px;
+  color: #333a4a;
+  span {
+    color: #3e64ff;
+    font-weight: bold;
+  }
+  &__h3 {
+    font-size: 36px;
+    line-height: 44px;
+    color: #333a4a;
+    font-weight: bold;
+    span {
+      color: #3e64ff;
+      font-weight: bold;
+    }
+  }
+}

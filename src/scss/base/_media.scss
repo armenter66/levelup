@@ -1,0 +1,533 @@
+@media (max-width: 1400px) {
+  body {
+    .container {
+      width: 1080px;
+      margin: 0 auto;
+    }
+    .product {
+      &__wrapper {
+        gap: 30px 80px;
+      }
+      &__photo {
+        width: 400px;
+      }
+      &__girl {
+        width: 100%;
+      }
+      &__payment {
+        left: 0px;
+      }
+      &__what {
+        width: 400px;
+      }
+    }
+  }
+  header {
+    .header {
+      &__logo {
+        margin-left: 10px;
+      }
+    }
+    nav {
+      margin-left: 150px;
+    }
+    .promo {
+      padding-left: 50px;
+      min-height: 650px;
+      &__subtitle {
+        padding-top: 100px;
+      }
+      &__wrapper {
+        margin-top: 80px;
+      }
+    }
+  }
+  footer {
+    .footer {
+      &__help {
+        &__photo {
+          width: 450px;
+          img {
+            width: 100%;
+            object-fit: contain;
+          }
+        }
+      }
+      &__contact {
+        gap: 50px;
+      }
+      &__invest {
+        width: 515px;
+        border-radius: 10px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  body {
+    .container {
+      width: 950px;
+      margin: 0 auto;
+    }
+    .product {
+      &__wrapper {
+        gap: 30px 50px;
+      }
+    }
+    .certificate {
+      &__example {
+        width: 400px;
+      }
+    }
+  }
+  header {
+    .header {
+      &__logo {
+        margin-left: 10px;
+      }
+      &__back {
+        top: 10px;
+      }
+      &__nav {
+        gap: 20px;
+      }
+      &__icons {
+        margin-left: 80px;
+      }
+    }
+    nav {
+      margin-left: 50px;
+    }
+    .promo {
+      min-height: 550px;
+      padding-left: 50px;
+      &__subtitle {
+        padding-top: 100px;
+      }
+      &__wrapper {
+        margin-top: 10px;
+      }
+    }
+  }
+  footer {
+    .footer {
+      &__help {
+        gap: 30px 50px;
+        &__photo {
+          width: 400px;
+          height: 400px;
+        }
+      }
+      &__contact {
+        justify-content: center;
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  body {
+    .container {
+      width: 750px;
+      margin: 0 auto;
+    }
+    .certificate {
+      &__wrapper {
+        gap: 50px;
+      }
+      &__example {
+        width: 300px;
+        &::after {
+          display: none;
+        }
+      }
+      &__block {
+        width: 300px;
+      }
+    }
+    .product {
+      &__wrapper {
+        gap: 30px;
+      }
+      &__photo {
+        width: 300px;
+      }
+      &__girl {
+        width: 100%;
+      }
+      &__payment {
+        left: 0px;
+        top: 300px;
+        width: 250px;
+      }
+      &__what {
+        width: 300px;
+      }
+      &__messege {
+        width: 300px;
+      }
+    }
+  }
+  footer {
+    .footer {
+      &__help {
+        gap: 30px 50px;
+        justify-content: center;
+        &__photo {
+          width: 300px;
+        }
+        &__block {
+          width: 300px;
+        }
+        &__title {
+          font-size: 50px;
+          line-height: 54px;
+          span {
+            font-size: 35px;
+            line-height: 35px;
+          }
+        }
+      }
+    }
+  }
+  header {
+    .header {
+      &__nav {
+        gap: 15px;
+        &__links {
+          font-size: 12px;
+          line-height: 15px;
+        }
+      }
+      &__icons {
+        margin-left: 40px;
+        gap: 25px;
+      }
+      &__back {
+        top: 20px;
+      }
+      &__logo {
+        margin-top: 5px;
+        img {
+          width: 70%;
+        }
+      }
+    }
+    nav {
+      margin-left: 10px;
+    }
+    .promo {
+      min-height: 450px;
+      &__subtitle {
+        padding-top: 80px;
+      }
+      &__title {
+        font-size: 44px;
+        line-height: 46px;
+      }
+      &__desc {
+        font-size: 16px;
+        line-height: 20px;
+        padding-left: 0;
+      }
+      &__btn {
+        width: 150px;
+        height: 57px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    .container {
+      width: 550px;
+      margin: 0 auto;
+    }
+    .title {
+      font-size: 48px;
+      line-height: 50px;
+      &__h3 {
+        font-size: 30px;
+        line-height: 32px;
+      }
+    }
+    .certificate {
+      &__example {
+        width: 400px;
+      }
+    }
+    .product {
+      padding-bottom: 30px;
+      &__wrapper {
+        gap: 30px;
+      }
+      &__what {
+        margin-top: 120px;
+      }
+    }
+    .modal {
+      width: 400px;
+      &__form {
+        &__btn {
+          width: 250px;
+        }
+      }
+    }
+  }
+  header {
+    .header {
+      nav {
+        display: none;
+      }
+      &__back {
+        top: 15px;
+      }
+      &__logo {
+        margin-top: 5px;
+        img {
+          width: 50%;
+        }
+      }
+      &__icons {
+        display: none;
+      }
+    }
+    .hamburger {
+      display: block;
+    }
+    .promo {
+      min-height: 350px;
+      &__desc {
+        display: none;
+      }
+    }
+  }
+  footer {
+    .footer {
+      &__help {
+        gap: 50px;
+        justify-content: center;
+        &__photo {
+          width: 400px;
+        }
+        &__block {
+          margin-top: 50px;
+          width: 400px;
+        }
+        &__title {
+          font-size: 50px;
+          line-height: 54px;
+          span {
+            font-size: 35px;
+            line-height: 35px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  body {
+    .container {
+      max-width: 100%;
+      margin: 0 auto;
+    }
+    .title {
+      font-size: 36px;
+      line-height: 38px;
+      &__h3 {
+        font-size: 24px;
+        line-height: 26px;
+      }
+    }
+    .certificate {
+      &__example {
+        width: 250px;
+        &__header {
+          gap: 30px;
+        }
+      }
+      &__block {
+        &__photo {
+          width: 300px;
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+    .features {
+      &__title {
+        font-size: 21px;
+        line-height: 22px;
+      }
+    }
+    .after {
+      &__block {
+        padding: 0 10px;
+      }
+    }
+    .learn {
+      &__rainbow {
+        display: none;
+      }
+    }
+    .product {
+      &__wrapper {
+        gap: 30px 0;
+      }
+      &__photo {
+        width: 250px;
+      }
+      &__girl {
+        width: 100%;
+      }
+      &__payment {
+        left: 0px;
+        top: 300px;
+        width: 250px;
+      }
+      &__what {
+        width: 250px;
+      }
+      &__messege {
+        width: 230px;
+        padding: 20px 15px;
+        font-size: 16px;
+        line-height: 18px;
+      }
+    }
+    .modal {
+      width: 250px;
+      padding: 30px;
+      &__form {
+        &__btn {
+          width: 200px;
+        }
+      }
+      &__close {
+        top: 10px;
+        right: 10px;
+      }
+    }
+    .menu {
+      &__block {
+        width: 200px;
+        padding-top: 80px;
+      }
+      &__list {
+        padding-left: 30px;
+      }
+      &__links {
+        font-size: 21px;
+        line-height: 25px;
+        &::before {
+          top: 3px;
+          left: -32px;
+        }
+      }
+    }
+  }
+  footer {
+    .footer {
+      &__help {
+        gap: 50px;
+        justify-content: center;
+        &__photo {
+          width: 300px;
+        }
+        &__block {
+          width: 300px;
+        }
+        &__title {
+          font-size: 36px;
+          line-height: 37px;
+          span {
+            font-size: 24px;
+            line-height: 25px;
+          }
+        }
+      }
+      &__invest {
+        width: 250px;
+        padding: 30px 0 0 30px;
+        &__block {
+          width: 200px;
+          padding: 20px 0 0 20px;
+        }
+        &__price {
+          font-size: 36px;
+          line-height: 38px;
+        }
+      }
+      &__consult {
+        width: 250px;
+        &__block {
+          gap: 15px;
+        }
+        &__title {
+          font-size: 24px;
+          line-height: 26px;
+        }
+        &__form {
+          width: 250px;
+          input {
+            width: 100%;
+          }
+        }
+        &__btn {
+          width: 250px;
+        }
+      }
+      &__contact {
+        margin: 150px auto;
+        width: 97%;
+      }
+    }
+  }
+  header {
+    .header {
+      padding-top: 15px;
+      &__logo {
+        display: none;
+      }
+      &__back {
+        top: 5px;
+      }
+    }
+    .promo {
+      min-height: 250px;
+      right: 30px;
+      &__title {
+        font-size: 24px;
+        line-height: 26px;
+        padding-top: 8px;
+        padding-left: 0;
+      }
+      &__subtitle {
+        padding-top: 65px;
+        font-size: 10px;
+        line-height: 12px;
+      }
+      &__wrapper {
+        margin-top: 5px;
+        gap: 20px;
+      }
+      &__btn {
+        width: 100px;
+        height: 35px;
+        font-size: 12px;
+        line-height: 14px;
+      }
+      &__date {
+        font-size: 12px;
+      }
+    }
+    .hamburger {
+      top: 10px;
+    }
+  }
+}
